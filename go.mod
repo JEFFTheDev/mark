@@ -1,4 +1,4 @@
-module github.com/kovetskiy/mark
+module github.com/JEFFTheDev/mark
 
 go 1.17
 
