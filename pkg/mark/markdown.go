@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/JEFFTheDev/mark/pkg/mark/stdlib"
+	"github.com/dualinventive/mark/pkg/mark/stdlib"
 	bf "github.com/kovetskiy/blackfriday/v2"
 	"github.com/reconquest/pkg/log"
 )

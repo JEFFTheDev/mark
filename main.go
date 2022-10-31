@@ -8,12 +8,12 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/JEFFTheDev/mark/pkg/confluence"
-	"github.com/JEFFTheDev/mark/pkg/mark"
-	"github.com/JEFFTheDev/mark/pkg/mark/includes"
-	"github.com/JEFFTheDev/mark/pkg/mark/macro"
-	"github.com/JEFFTheDev/mark/pkg/mark/stdlib"
 	"github.com/docopt/docopt-go"
+	"github.com/dualinventive/mark/pkg/confluence"
+	"github.com/dualinventive/mark/pkg/mark"
+	"github.com/dualinventive/mark/pkg/mark/includes"
+	"github.com/dualinventive/mark/pkg/mark/macro"
+	"github.com/dualinventive/mark/pkg/mark/stdlib"
 	"github.com/kovetskiy/lorg"
 	"github.com/reconquest/karma-go"
 	"github.com/reconquest/pkg/log"
@@ -43,7 +43,7 @@ const (
 	version = "8.1"
 	usage   = `mark - a tool for updating Atlassian Confluence pages from markdown.
 
-Docs: https://github.com/JEFFTheDev/mark
+Docs: https://github.com/dualinventive/mark
 
 Usage:
   mark [options] [-u <username>] [-p <token>] [-k] [-l <url>] -f <file>
