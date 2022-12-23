@@ -40,7 +40,7 @@ type Flags struct {
 }
 
 const (
-	version = "8.1"
+	version = "8.4"
 	usage   = `mark - a tool for updating Atlassian Confluence pages from markdown.
 
 Docs: https://github.com/dualinventive/mark
